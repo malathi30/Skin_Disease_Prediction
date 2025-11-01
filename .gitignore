@@ -1,0 +1,23 @@
+# Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Model and dataset files
+*.pkl
+*.h5
+*.ckpt
+dataset/
+archive*/
+
+# Streamlit and system files
+.streamlit/
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
